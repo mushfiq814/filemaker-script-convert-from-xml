@@ -4,10 +4,10 @@ If [$scriptParam = 1]
 Else If [$scriptParam = 2]
   Enter Find Mode [Pause:Off]
   # Search for all related events with event ID
-  Set Field [T03_Lessons::event ID; $eventId]
+  Set Field [Main::event ID; $eventId]
   Set Variable [$lastError1; Value: Get(LastError)]
   If [$otherScriptParam = 2]
-    Set Field [T03_Lessons::Date; $dateOriginal & "..."]
+    Set Field [Main::Date; $dateOriginal & "..."]
     Set Variable [$lastError2; Value: Get(LastError)]
   End If
   Perform Find []
