@@ -26,7 +26,7 @@
     <Calculation>
       <![CDATA[$eventId]]>
     </Calculation>
-    <Field table="Main" id="6" name="event ID"></Field>
+    <Field table="T03_Lessons" id="6" name="event ID"></Field>
   </Step>
   <Step enable="True" id="141" name="Set Variable">
     <Value>
@@ -50,7 +50,7 @@
     <Calculation>
       <![CDATA[$dateOriginal & "..."]]>
     </Calculation>
-    <Field table="Main" id="16" name="Date"></Field>
+    <Field table="T03_Lessons" id="16" name="Date"></Field>
   </Step>
   <Step enable="True" id="141" name="Set Variable">
     <Value>
