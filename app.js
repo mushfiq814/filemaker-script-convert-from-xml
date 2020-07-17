@@ -1,13 +1,35 @@
 const fs = require("fs");
 const convert = require("xml-js");
+const commandLineArgs = require('command-line-args');
+
+// cli arguments
+const cliOptionDefinitions = [
+  {
+    name: 'src',
+    alias: 's',
+    type: String,
+    defaultOption: true
+  },
+  {
+    name: 'output',
+    alias: 'o',
+    type: String
+  },
+]
+const cliOptions = commandLineArgs(cliOptionDefinitions);
+if (!cliOptions.src) {
+  console.log('Input xml file not specified. Exiting...');
+  return;
+}
+if (!cliOptions.output) cliOptions.output = './output/script.json';
 
 // get FileMaker xml script
-const xml = fs.readFileSync("./script.xml", { encoding: "utf-8" });
+const xml = fs.readFileSync(cliOptions.src, { encoding: "utf-8" });
 
 // convert xml to JSON
 const resultStr = convert.xml2json(xml, { compact: false });
 const result = JSON.parse(resultStr);
-fs.writeFileSync("./script.json", resultStr);
+fs.writeFileSync(cliOptions.output, resultStr);
 
 // parse JSON tree and generate code
 const codeGen = (tree) => {

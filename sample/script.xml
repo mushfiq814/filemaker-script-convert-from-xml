@@ -1,0 +1,64 @@
+<fmxmlsnippet type="FMObjectList">
+  <Step enable="True" id="87" name="Show Custom Dialog"></Step>
+  <Step enable="True" id="87" name="Show Custom Dialog">
+    <Title>
+      <Calculation>
+        <![CDATA["title text"]]>
+      </Calculation>
+    </Title>
+    <Buttons>
+      <Button CommitState="True">
+        <Calculation>
+          <![CDATA["OK"]]>
+        </Calculation>
+      </Button>
+      <Button CommitState="False">
+        <Calculation>
+          <![CDATA["Cancel"]]>
+        </Calculation>
+      </Button>
+      <Button CommitState="False"></Button>
+    </Buttons>
+  </Step>
+  <Step enable="True" id="87" name="Show Custom Dialog">
+    <Title>
+      <Calculation>
+        <![CDATA["title text"]]>
+      </Calculation>
+    </Title>
+    <Buttons>
+      <Button CommitState="True">
+        <Calculation>
+          <![CDATA["OK"]]>
+        </Calculation>
+      </Button>
+      <Button CommitState="True">
+        <Calculation>
+          <![CDATA["cancel"]]>
+        </Calculation>
+      </Button>
+      <Button CommitState="False"></Button>
+    </Buttons>
+  </Step>
+  <Step enable="True" id="87" name="Show Custom Dialog">
+    <Title>
+      <Calculation>
+        <![CDATA["title text"]]>
+      </Calculation>
+    </Title>
+    <Message>
+      <Calculation>
+        <![CDATA["description text"]]>
+      </Calculation>
+    </Message>
+    <Buttons>
+      <Button CommitState="True">
+        <Calculation>
+          <![CDATA["OK"]]>
+        </Calculation>
+      </Button>
+      <Button CommitState="False"></Button>
+      <Button CommitState="False"></Button>
+    </Buttons>
+  </Step>
+</fmxmlsnippet>

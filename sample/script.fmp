@@ -1,0 +1,4 @@
+Show Custom Dialog [; ]
+Show Custom Dialog ["title text"; ; buttons: {["OK"; commit]; ["Cancel"]}]
+Show Custom Dialog ["title text"; ; buttons: {["OK"; commit]; ["cancel"; commit]}]
+Show Custom Dialog ["title text"; "description text"; buttons: {["OK"; commit]}]

@@ -1,0 +1,197 @@
+{
+  "elements": [
+    {
+      "type": "element",
+      "name": "fmxmlsnippet",
+      "attributes": { "type": "FMObjectList" },
+      "elements": [
+        {
+          "type": "element",
+          "name": "Step",
+          "attributes": {
+            "enable": "True",
+            "id": "87",
+            "name": "Show Custom Dialog"
+          }
+        },
+        {
+          "type": "element",
+          "name": "Step",
+          "attributes": {
+            "enable": "True",
+            "id": "87",
+            "name": "Show Custom Dialog"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "Title",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "Calculation",
+                  "elements": [{ "type": "cdata", "cdata": "\"title text\"" }]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "Buttons",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "Button",
+                  "attributes": { "CommitState": "True" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "Calculation",
+                      "elements": [{ "type": "cdata", "cdata": "\"OK\"" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "Button",
+                  "attributes": { "CommitState": "False" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "Calculation",
+                      "elements": [{ "type": "cdata", "cdata": "\"Cancel\"" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "Button",
+                  "attributes": { "CommitState": "False" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Step",
+          "attributes": {
+            "enable": "True",
+            "id": "87",
+            "name": "Show Custom Dialog"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "Title",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "Calculation",
+                  "elements": [{ "type": "cdata", "cdata": "\"title text\"" }]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "Buttons",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "Button",
+                  "attributes": { "CommitState": "True" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "Calculation",
+                      "elements": [{ "type": "cdata", "cdata": "\"OK\"" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "Button",
+                  "attributes": { "CommitState": "True" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "Calculation",
+                      "elements": [{ "type": "cdata", "cdata": "\"cancel\"" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "Button",
+                  "attributes": { "CommitState": "False" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "Step",
+          "attributes": {
+            "enable": "True",
+            "id": "87",
+            "name": "Show Custom Dialog"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "Title",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "Calculation",
+                  "elements": [{ "type": "cdata", "cdata": "\"title text\"" }]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "Message",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "Calculation",
+                  "elements": [
+                    { "type": "cdata", "cdata": "\"description text\"" }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "Buttons",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "Button",
+                  "attributes": { "CommitState": "True" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "Calculation",
+                      "elements": [{ "type": "cdata", "cdata": "\"OK\"" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "Button",
+                  "attributes": { "CommitState": "False" }
+                },
+                {
+                  "type": "element",
+                  "name": "Button",
+                  "attributes": { "CommitState": "False" }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sample": "node app.js sample/script.xml -o sample/script.json > sample/script.fmp"
   },
   "author": "",
   "license": "ISC"
