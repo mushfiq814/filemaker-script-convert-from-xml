@@ -8,7 +8,7 @@ FileMaker scripts are not able to be copied and pasted as plain text as they use
 
 ## Sample File
 
-There is a sample xml file at `./sample/script.xml`. To excute the script on the sample file, use the following npm script:
+There is a sample xml file at `./sample/script.xml`. To execute the script on the sample file, use the following npm script:
 
 ```sh
 $ npm run sample
@@ -24,4 +24,4 @@ From FileMaker
 
 To plain text
 
-<img src="https://raw.githubusercontent.com/mushfiq814/filemaker-script-convert-from-xml/master/assets/sample-final-output.png" alt="Original Script in FileMaker">
+<img src="https://raw.githubusercontent.com/mushfiq814/filemaker-script-convert-from-xml/master/assets/sample-final-output.png" alt="Plain Text Output">
