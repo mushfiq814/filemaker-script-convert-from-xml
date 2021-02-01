@@ -7,5 +7,9 @@
     "sample": "node app.js sample/script.xml -o sample/script.json > sample/script.fmp"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "xml-js": "^1.6.11"
+  }
 }
